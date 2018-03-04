@@ -1,0 +1,20 @@
+{
+  "name": "shopping-cart",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Tuan Dung TRAN <mcafee92@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tuantr10/shopping-cart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
