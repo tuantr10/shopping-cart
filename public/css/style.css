@@ -256,6 +256,10 @@ textarea.input {
   background: #F6F7F8;
 }
 
+.section-grey .col-md-4>.banner>img{
+  height: 235px;
+}
+
 .section-title {
   position: relative;
   margin-bottom: 15px;
