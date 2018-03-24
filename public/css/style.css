@@ -278,6 +278,11 @@ textarea.input {
   background-color: #F8694A;
 }
 
+.section.section-products .row{
+  height: 350px;
+  margin-bottom: 50px;
+}
+
 /*----------------------------*\
 	Breadcrumb
 \*----------------------------*/
@@ -536,7 +541,7 @@ textarea.input {
 
 .category-nav .category-list>li>a {
   display: block;
-  padding: 15px;
+  padding: 12px 15px;
   text-transform: uppercase;
 }
 
@@ -788,6 +793,11 @@ textarea.input {
   width: 100%;
 }
 
+
+.section-category .banner>img {
+  height: 270px;
+}
+
 .banner.banner-1 .banner-caption {
   position: absolute;
   top: 50%;
@@ -815,7 +825,7 @@ textarea.input {
 
 #home .home-wrap {
   margin-left: 270px;
-  height: 500px;
+  height: 350px;
 }
 
 #home-slick .banner {
