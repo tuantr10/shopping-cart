@@ -5,7 +5,8 @@ let express = require('express'),
 	cookieParser = require('cookie-parser'),
 	bodyParser = require('body-parser'),
 	index = require('./routes/index'),
-	users = require('./routes/users'),
+  users = require('./routes/users'),
+  products = require('./routes/products'),
 	app = express(),
 	ECT = require('ect'),
 	ectRenderer = ECT({ root : __dirname + '/views', ext : '.ect' });
@@ -25,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/products', products);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
